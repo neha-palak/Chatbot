@@ -54,6 +54,8 @@ def greeting_bot():
         
         if "hello" in user_input or "hi" in user_input or "hey" in user_input:
             print(random.choice(greetings))
+        elif "name" in user_input:
+            print("My name is The Friendly Bot :)")
         elif "how's" in user_input or "new" in user_input:
             print(random.choice(small_talk))
         elif "joke" in user_input or "funny" in user_input:
